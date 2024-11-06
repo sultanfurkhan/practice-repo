@@ -6,6 +6,6 @@ def lambda_handler(event, context):
     ImageId='ami-0f71013b2c8bd2c29',
     InstanceType='t2.micro',
     KeyName='awskey',
-    MaxCount=5,
+    MaxCount=5
     MinCount=1
 )
